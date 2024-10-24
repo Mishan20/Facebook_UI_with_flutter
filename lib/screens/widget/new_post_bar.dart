@@ -11,7 +11,7 @@ class NewPostBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 5),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
@@ -19,13 +19,13 @@ class NewPostBar extends StatelessWidget {
             backgroundImage: NetworkImage(profilePic),
           ),
           const SizedBox(
-            width: 10,
+            width: 5,
           ),
           const Expanded(
             child: Padding(
               padding: EdgeInsets.all(8.0),
               child: Text(
-                "What's On Your Mind",
+                "What's on your mind?",
                 style: TextStyle(color: Colors.white),
               ),
             ),
